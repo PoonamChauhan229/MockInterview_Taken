@@ -1,0 +1,199 @@
+  Create a function that takes an array of numbers and return "Boom!" ,if the digit 7 appears in the array.
+  Otherwise, return "there is no 7 in the array".
+
+  sevenBoom([1, 2, 3, 4, 5, 6, 7]) ➞ "Boom!"
+
+  sevenBoom([8, 6, 33, 100]) ➞ "there is no 7 in the array"
+
+  sevenBoom([2, 55, 60, 97, 86]) ➞ "Boom!"
+
+ https://www.programiz.com/online-compiler/2I9ENA7hubul8
+  
+ https://www.programiz.com/javascript/online-compiler/
+
+ // Write a JavaScript function to check whether a given string is a palindrome
+
+// madam
+// racecar
+// gunshekar
+
+https://www.programiz.com/online-compiler/82E2s0G6XfXLp
+
+
+JavaScript
+
+  How does the return keyword work in JavaScript functions? What happens when a function encounters a return statement?
+  What is the DOM (Document Object Model) in web development? Explain its role in representing the structure of HTML documents.
+  What is a Promise in JavaScript?
+  ES6 Features of JS
+  Difference Spread Operator vs Rest Operator
+
+____________________________________________________________________________________________________
+
+HTML
+
+What are the semantic elements in HTML?
+What are the Meta Tags in HTML?
+List common input elements used in HTML forms. Explain their usage and attributes.
+Explain the concept of inline and block-level elements in HTML. Provide examples of each type.
+
+____________________________________________________________________________________________________
+CSS
+
+Differentiate between using a class and an ID selector in CSS. When would you use each type of selector?
+Describe the CSS box model and its components. How does each component affect the layout of an element?
+Discuss the display: flex; property in CSS. What is the purpose of Flexbox, and how does it simplify layout design?
+
+____________________________________________________________________________________________________
+
+In React, How do you initiate a basic Fetch request to retrieve data from a server?
+    https://jsonplaceholder.typicode.com/todos
+
+https://codesandbox.io/p/sandbox/kind-tereshkova-4drvhs
+
+
+
+Madaan :1/2
+hemath:1/4
+
+React:
+Create a Context and show how can you use the use the Context
+What is React Router Dom  Explain the purpose of react-router-dom and how do you install ?
+Discuss the benefits of using Link over traditional anchor (<a>) tags for internal navigation in React.
+Describe the process of making GET requests using Axios in a React component.
+Describe about the useEffect in React
+What is Virtual DOM ?
+
+____________________________________________________________________________________________________
+
+NodeJS
+
+What is an Event Loop
+What is an Authentication & Authorization in NodeJS?
+How does routing work in Express.js, and why is it important for building RESTful APIs?
+What are the CORS (Cross-Origin Resource Sharing) considerations when connecting a frontend application to a Node.js backend?
+
+
+
+____________________________________________________________________________________________________
+
+Find the average price of all products form products table
+Products table> Productname|| price|| Qty
+
+
+MONGODB
+https://chatgpt.com/c/68da2b5b-3810-8321-a528-859b0d610617
+https://mongoplayground.net/p/k7FYQTAc6Y9
+1-Remove the document of the student named "Bob".
+2-Retrieve all documents where the student's age is greater than 20.
+3-Find all students with GPA greater than 3.5.
+4-Find students majoring in Computer Science.
+5-Retrieve the names of students enrolled in the course Algorithms.
+6-Find students whose age is greater than 22.
+7-Retrieve all students sorted by GPA in descending order.
+8-Count how many students are majoring in Physics.
+9-Find students who have taken at least 3 courses.
+10-Get the list of students with GPA between 3.5 and 3.8.
+11-Find the student with the highest GPA.
+12-Retrieve names and majors of students aged 20.
+13-Find students who are enrolled in Cell Biology or Genetics.
+14-List all students excluding their courses.
+15-Find students where major starts with the letter C.
+16-Find all students whose GPA is less than 3.3.
+17-Retrieve distinct majors from the collection.
+18-Update GPA of a student named Charlie to 3.4.
+19-Add a new course Machine Learning to Alice.
+20-Remove the student named Frank.
+21-Find students who have both Linear Algebra and Statistics in their courses.
+22-Get the average GPA of all students.
+
+db.students.find({ age: { $gt: 20 } })
+
+[
+  {
+    "name": "Alice",
+    "age": 22,
+    "major": "Computer Science",
+    "gpa": 3.8,
+    "courses": ["Database Systems", "Algorithms", "Web Development"]
+  },
+  {
+    "name": "Bob",
+    "age": 20,
+    "major": "Electrical Engineering",
+    "gpa": 3.5,
+    "courses": ["Circuit Design", "Digital Electronics"]
+  },
+  {
+    "name": "Charlie",
+    "age": 25,
+    "major": "Mathematics",
+    "gpa": 3.2,
+    "courses": ["Calculus", "Linear Algebra", "Statistics"]
+  },
+  {
+    "name": "David",
+    "age": 21,
+    "major": "Physics",
+    "gpa": 3.9,
+    "courses": ["Quantum Mechanics", "Thermodynamics"]
+  },
+  {
+    "name": "Emma",
+    "age": 23,
+    "major": "Biology",
+    "gpa": 3.6,
+    "courses": ["Genetics", "Cell Biology"]
+  },
+  {
+    "name": "Frank",
+    "age": 24,
+    "major": "History",
+    "gpa": 3.4,
+    "courses": ["World History", "Ancient Civilizations"]
+  },
+  {
+    "name": "Grace",
+    "age": 22,
+    "major": "Psychology",
+    "gpa": 3.7,
+    "courses": ["Behavioral Psychology", "Cognitive Neuroscience"]
+  },
+  {
+    "name": "Hannah",
+    "age": 20,
+    "major": "English Literature",
+    "gpa": 3.1,
+    "courses": ["Shakespeare", "Modern Poetry"]
+  },
+  {
+    "name": "Ian",
+    "age": 21,
+    "major": "Chemistry",
+    "gpa": 3.8,
+    "courses": ["Organic Chemistry", "Physical Chemistry"]
+  },
+  {
+    "name": "Julia",
+    "age": 22,
+    "major": "Sociology",
+    "gpa": 3.5,
+    "courses": ["Social Theory", "Research Methods"]
+  }
+]
+
+https://mongoplayground.net/p/k7FYQTAc6Y9
+1-Remove the document of the student named "Bob".
+2-Retrieve all documents where the student's age is greater than 20.
+    >db.students.deleteOne({ "name": "Bob" })
+
+2-Retrieve all documents where the student's age is greater than 20.
+    >db.students.find({ "age": { $gt: 20 } })
+
+Hemanth:2/2
+
+NodeJS : 3/5
+
+
+
+

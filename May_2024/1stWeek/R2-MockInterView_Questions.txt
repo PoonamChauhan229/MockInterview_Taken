@@ -1,0 +1,65 @@
+
+Anagram Question:
+
+https://www.programiz.com/online-compiler/3O0nprP35KHjj
+____________________________________________________________________________________________________
+const arr1 =[
+                { "score": 0, "text": "pizza" },
+                { "score": 0, "text": "burger" },
+                { "score": 0, "text": "paratha" },
+                { "score": 0, "text": "samosa" },
+                { "score": 0, "text": "other" }
+            ]
+
+const arr2 = ["pizza", "burger", "paratha", "samosa","paneer"];
+
+Return elements of arr2 which are not present in arr1.text
+
+Result paneer
+
+____________________________________________________________________________________________________
+
+JavaScript
+What are Promises ?
+What is Hoisting ?
+What is the difference between setTimeout, setInterval ?
+What is async and await and why we choose above all
+What is ClearTimeout  and ClearInterval?
+
+
+HTML
+What are HTML attributes?
+What is the use of the alt attribute in images?
+Difference between inline and block elements?
+What is self closing tag & open and close tag?
+
+CSS
+What is a relative positioning?
+What are the different types of CSS selectors?
+What is the difference between fixed, and sticky positioning?
+What is the difference between relative, and absolute positioning?
+What is Flexbox?
+What is Flexbox and Grid?
+What are the different ways to apply CSS to a web page?
+What is the difference between inline, internal, and external CSS?
+____________________________________________________________________________________________________
+
+NodeJS
+What is the difference between Node.js and JavaScript in browser?
+What is an Event Loop? 
+What is non-blocking I/O in Node.js
+What are middleware functions in Express.js
+How does routing work in Express.js?
+What is the difference between req.query, req.params, and req.body in Express?
+Why do we use JWT?
+
+____________________________________________________________________________________________________
+
+Create a Context and show how can you use the use the Context?
+What is JSX?
+What is prop drilling and how can it be avoided?
+What is the use of the useState hook?
+What is the use of the useEffect hook?
+What is useReducer Hook?
+
+https://codesandbox.io/p/sandbox/dazzling-joana-nxzvf2?file=%2Fsrc%2FApp.js

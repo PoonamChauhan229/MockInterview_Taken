@@ -1,0 +1,21 @@
+🎤 Hey everyone! Welcome back to Code with Poonam!
+
+Today, we’re diving into Array-Based Challenges, an essential topic in JavaScript. Arrays are everywhere in coding interviews, real-world projects, and data manipulation tasks. 
+Mastering them will help us to solve problems efficiently and write cleaner, optimized code.
+
+In this video, we’ll cover:
+✅ Merging two arrays 
+✅ Finding the maximum and minimum values using different approaches
+✅ Rotating an array k times
+✅ Removing duplicates and unwanted values from arrays
+✅ Finding common elements between arrays
+✅ Performing mathematical operations like squaring, summing, and averaging numbers in an array
+✅ Exploring advanced topics like sliding subarrays, next smaller elements, and prefix sum arrays
+
+These challenges will sharpen your problem-solving skills and help you build a strong foundation in JavaScript.
+
+💡 So, grab your notebook, follow along, and let’s break down these array challenges together! If you get stuck, drop a comment—I’m here to help!
+
+📌 Don’t forget to like, share subscribe, and hit the notification bell for more JavaScript coding challenges!
+
+🚀 Let’s get started with the question and the question is 🎯
