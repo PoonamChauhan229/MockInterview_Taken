@@ -83,6 +83,8 @@ Products table> Productname|| price|| Qty
 
 MONGODB
 https://chatgpt.com/c/68da2b5b-3810-8321-a528-859b0d610617
+
+
 https://mongoplayground.net/p/k7FYQTAc6Y9
 1-Remove the document of the student named "Bob".
 2-Retrieve all documents where the student's age is greater than 20.

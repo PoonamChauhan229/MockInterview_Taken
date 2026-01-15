@@ -26,6 +26,8 @@ const arr2 = ["pizza", "burger", "paratha", "samosa","paneer"];
 // Result paneer
 // Return elements of arr2 which are not present in arr1.text
 
+// https://www.programiz.com/online-compiler/3tLV4FIS8Mf7y
+
 let res=arr2.filter(element=>!arr1.some(newelement=>newelement.text==element))
 console.log(res.join())
 

@@ -17,6 +17,7 @@ Return elements of arr2 which are not present in arr1.text
 
 Result paneer
 
+https://www.programiz.com/online-compiler/8Ii1fa7jobYZq
 ____________________________________________________________________________________________________
 
 JavaScript
@@ -25,6 +26,7 @@ What is Hoisting ?
 What is the difference between setTimeout, setInterval ?
 What is async and await and why we choose above all
 What is ClearTimeout  and ClearInterval?
+ES6 Features of JS
 
 
 HTML
@@ -61,5 +63,6 @@ What is prop drilling and how can it be avoided?
 What is the use of the useState hook?
 What is the use of the useEffect hook?
 What is useReducer Hook?
+Explain the Lifecycle of a component?
 
 https://codesandbox.io/p/sandbox/dazzling-joana-nxzvf2?file=%2Fsrc%2FApp.js
